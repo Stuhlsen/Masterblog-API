@@ -1,0 +1,72 @@
+# ---------------------------------
+# Python
+# ---------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+.env/
+
+# Packaging / Distribution
+build/
+dist/
+*.egg-info/
+
+# ---------------------------------
+# IDEs / Editoren
+# ---------------------------------
+# PyCharm / IntelliJ
+.idea/
+
+# Optional: VS Code (falls du es mal benutzt)
+.vscode/
+
+# ---------------------------------
+# macOS-spezifisch
+# ---------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Externe Laufwerke / Netzwerkvolumes
+.Spotlight-V100
+.Trashes
+
+# Sonstiges
+*.swp
+*~
+
+# ---------------------------------
+# Windows-spezifisch
+# ---------------------------------
+# Explorer-Thumbnail Cache
+Thumbs.db
+Thumbs.db:encryptable
+
+# Desktop-Konfigurationen
+Desktop.ini
+
+# Papierkorb auf Windows-Laufwerken
+$RECYCLE.BIN/
+
+# Weitere Systemdateien
+ehthumbs.db
+ehthumbs_vista.db
+
+# ---------------------------------
+# Logs & temporäre Dateien
+# ---------------------------------
+*.log
+*.tmp
+*.temp
+
+# Lokale Datenbanken (falls nur für Dev)
+*.sqlite3
